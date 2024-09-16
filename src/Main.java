@@ -78,6 +78,7 @@ public class Main {
         System.out.println("Кристина теперь получает " + kristinaAfter + " рублей. Годовой доход вырос на " + kristinaDifference + " рублей");
 
 
+
     }
 
 }
