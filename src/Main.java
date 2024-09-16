@@ -43,7 +43,7 @@ public class Main {
         int classAtSchool = allPaint / oneClass;
         int allWhitePaint = classAtSchool * whitePaint;
         int allBrownPaint = classAtSchool * brownPaint;
-        System.out.println("В школе, где " + classAtSchool + " классов, нужно " + allWhitePaint + " банок белой краски и " + allBrownPaint + " банок коричневой краски");
+        System.out.println("В Школе, где " + classAtSchool + " классов, нужно " + allWhitePaint + " банок белой краски и " + allBrownPaint + " банок коричневой краски");
 
         byte banana = 5;
         byte weightOneBanana = 80;
