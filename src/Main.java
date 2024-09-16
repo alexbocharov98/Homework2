@@ -1,17 +1,17 @@
 public class Main {
     public static void main(String[] args) {
         byte apple = 67;
-        System.out.println(apple);
+        System.out.println("Значение переменной apple с типом byte равно " + apple);
         short book = 569;
-        System.out.println(book);
+        System.out.println("Значение переменной book с типом short равно " + book);
         int cat = 27897;
-        System.out.println(cat);
+        System.out.println("Значение переменной cat с типом int равно " + cat);
         long dog = 987678965549L;
-        System.out.println(dog);
+        System.out.println("Значение переменной dog с типом long равно " + dog);
         float zero = 2.786f;
-        System.out.println(zero);
+        System.out.println("Значение переменной zero с типом float равно " + zero);
         double quote = 27.12;
-        System.out.println(quote);
+        System.out.println("Значение переменной quote с типом double равно " + quote);
 
         short allPage = 480;
         byte firstClass = 23;
@@ -23,13 +23,13 @@ public class Main {
         byte bottle = 16;
         byte time = 2;
         int capacity = bottle / time;
-        int capacitytwentyMinute = capacity * 20;
-        System.out.println("За 20 минут машина произвела " + capacitytwentyMinute + " штук бутылок");
+        int capacityTwentyMinute = capacity * 20;
+        System.out.println("За 20 минут машина произвела " + capacityTwentyMinute + " штук бутылок");
         int our = time * 30;
         int dayNight = our * 24;
         int capacityDayNight = capacity * dayNight;
         System.out.println("За сутки машина произвела " + capacityDayNight + " штук бутылок");
-        int threeDay  = dayNight * 3;
+        int threeDay = dayNight * 3;
         int capacityThreeDay = capacity * threeDay;
         System.out.println("За три дня машина произвела " + capacityThreeDay + " штук бутылок");
         int oneMonth = dayNight * 30;
@@ -76,11 +76,6 @@ public class Main {
         float kristinaAfter = kristinaBefore * 1.1f;
         float kristinaDifference = kristinaAfter - kristinaBefore;
         System.out.println("Кристина теперь получает " + kristinaAfter + " рублей. Годовой доход вырос на " + kristinaDifference + " рублей");
-
-
-
-
-
 
 
     }
