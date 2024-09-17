@@ -67,16 +67,18 @@ public class Main {
         int mashaBefore = 67760;
         float mashaAfter = mashaBefore * 1.1f;
         float mashaDifference = mashaAfter - mashaBefore;
-        System.out.println("Маша теперь получает " + mashaAfter + " рублей. Годовой доход вырос на " + mashaDifference + " рублей");
+        float mashaDifferenceYear = mashaDifference * 12;
+        System.out.println("Маша теперь получает " + mashaAfter + " рублей. Годовой доход вырос на " + mashaDifferenceYear + " рублей");
         int denisBefore = 83690;
         float denisAfter = denisBefore * 1.1f;
         float denisDifference = denisAfter - denisBefore;
-        System.out.println("Денис теперь получает " + denisAfter + " рублей. Годовой доход вырос на " + denisDifference + " рублей");
+        float denisDifferenceYear = denisDifference * 12;
+        System.out.println("Денис теперь получает " + denisAfter + " рублей. Годовой доход вырос на " + denisDifferenceYear + " рублей");
         int kristinaBefore = 76230;
         float kristinaAfter = kristinaBefore * 1.1f;
         float kristinaDifference = kristinaAfter - kristinaBefore;
-        System.out.println("Кристина теперь получает " + kristinaAfter + " рублей. Годовой доход вырос на " + kristinaDifference + " рублей");
-
+        float kristinaDifferenceYear = kristinaDifference *12;
+        System.out.println("Кристина теперь получает " + kristinaAfter + " рублей. Годовой доход вырос на " + kristinaDifferenceYear + " рублей");
 
 
     }
